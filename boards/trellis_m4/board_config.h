@@ -12,8 +12,8 @@
 
 #define LED_PIN PIN_PA12
 
-#define BOARD_RGBLED_CLOCK_PIN            PIN_PA00
-#define BOARD_RGBLED_DATA_PIN             PIN_PA01
+#define BOARD_RGBLED_CLOCK_PIN            PIN_PB02
+#define BOARD_RGBLED_DATA_PIN             PIN_PB03
 
 #define BOOT_USART_MODULE                 SERCOM3
 #define BOOT_USART_MASK                   APBAMASK
