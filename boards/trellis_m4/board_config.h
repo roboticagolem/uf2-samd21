@@ -10,7 +10,7 @@
 #define USB_VID 0x239A
 #define USB_PID 0x002F
 
-#define LED_PIN PIN_PA12
+#define LED_PIN PIN_PA31
 
 #define BOARD_RGBLED_CLOCK_PIN            PIN_PB02
 #define BOARD_RGBLED_DATA_PIN             PIN_PB03
