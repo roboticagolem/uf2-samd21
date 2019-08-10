@@ -1,12 +1,12 @@
 Archive member included to satisfy reference by file (symbol)
 
-/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+/usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
                               build/golem/hid.o (__gnu_thumb1_case_uqi)
-/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+/usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
                               build/golem/cdc_enumerate.o (memcpy)
-/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+/usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
                               build/golem/cdc_enumerate.o (memset)
-/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen.o)
+/usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen.o)
                               build/golem/cdc_enumerate.o (strlen)
 
 Allocating common symbols
@@ -90,8 +90,8 @@ Discarded input sections
  .debug_abbrev  0x0000000000000000      0x197 build/golem/screen.o
  .debug_aranges
                 0x0000000000000000       0x18 build/golem/screen.o
- .debug_line    0x0000000000000000      0x113 build/golem/screen.o
- .debug_str     0x0000000000000000      0x5d1 build/golem/screen.o
+ .debug_line    0x0000000000000000      0x18b build/golem/screen.o
+ .debug_str     0x0000000000000000      0x5d9 build/golem/screen.o
  .comment       0x0000000000000000       0x80 build/golem/screen.o
  .ARM.attributes
                 0x0000000000000000       0x32 build/golem/screen.o
@@ -109,8 +109,8 @@ Discarded input sections
  .debug_abbrev  0x0000000000000000       0x66 build/golem/images.o
  .debug_aranges
                 0x0000000000000000       0x18 build/golem/images.o
- .debug_line    0x0000000000000000       0x90 build/golem/images.o
- .debug_str     0x0000000000000000      0x1c2 build/golem/images.o
+ .debug_line    0x0000000000000000       0xe0 build/golem/images.o
+ .debug_str     0x0000000000000000      0x1ca build/golem/images.o
  .comment       0x0000000000000000       0x80 build/golem/images.o
  .ARM.attributes
                 0x0000000000000000       0x32 build/golem/images.o
@@ -174,8 +174,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x50 build/golem/uart_driver.o
  .debug_ranges  0x0000000000000000       0x40 build/golem/uart_driver.o
- .debug_line    0x0000000000000000      0x271 build/golem/uart_driver.o
- .debug_str     0x0000000000000000      0xdeb build/golem/uart_driver.o
+ .debug_line    0x0000000000000000      0x2e9 build/golem/uart_driver.o
+ .debug_str     0x0000000000000000      0xdf3 build/golem/uart_driver.o
  .comment       0x0000000000000000       0x80 build/golem/uart_driver.o
  .debug_frame   0x0000000000000000       0xac build/golem/uart_driver.o
  .ARM.attributes
@@ -183,16 +183,16 @@ Discarded input sections
  .text          0x0000000000000000        0x0 build/golem/hid.o
  .data          0x0000000000000000        0x0 build/golem/hid.o
  .bss           0x0000000000000000        0x0 build/golem/hid.o
- .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
- .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
- .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
- .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
- .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
- .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
- .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
- .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
- .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen.o)
- .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen.o)
+ .data          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+ .text          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .text          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen.o)
+ .bss           0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen.o)
 
 Memory Configuration
 
@@ -218,23 +218,23 @@ LOAD build/golem/sam_ba_monitor.o
 LOAD build/golem/uart_driver.o
 LOAD build/golem/hid.o
 START GROUP
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a
+LOAD /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a
+LOAD /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a
+LOAD /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a
 END GROUP
 START GROUP
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libnosys.a
+LOAD /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a
+LOAD /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a
+LOAD /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libnosys.a
 END GROUP
 START GROUP
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libnosys.a
+LOAD /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a
+LOAD /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a
+LOAD /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libnosys.a
 END GROUP
                 0x0000000000002000                STACK_SIZE = DEFINED (STACK_SIZE)?STACK_SIZE:DEFINED (__stack_size__)?__stack_size__:0x2000
 
-.text           0x0000000000000000     0x1c68
+.text           0x0000000000000000     0x1c7c
                 0x0000000000000000                . = ALIGN (0x4)
                 0x0000000000000000                _sfixed = .
  *(.vectors .vectors.*)
@@ -269,7 +269,7 @@ END GROUP
                 0x000000000000027c                SysTick_Handler
  .text.Dummy_Handler
                 0x0000000000000284        0x2 build/golem/startup_samd21.o
-                0x0000000000000284                DMAC_Handler
+                0x0000000000000284                SYSCTRL_Handler
                 0x0000000000000284                AC_Handler
                 0x0000000000000284                PendSV_Handler
                 0x0000000000000284                NMI_Handler
@@ -298,7 +298,7 @@ END GROUP
                 0x0000000000000284                DAC_Handler
                 0x0000000000000284                PTC_Handler
                 0x0000000000000284                TC5_Handler
-                0x0000000000000284                SYSCTRL_Handler
+                0x0000000000000284                DMAC_Handler
  .text.HardFault_Handler
                 0x0000000000000286        0x2 build/golem/startup_samd21.o
                 0x0000000000000286                HardFault_Handler
@@ -441,13 +441,13 @@ END GROUP
  .text.hidHandoverLoop
                 0x0000000000001a24       0x24 build/golem/hid.o
                 0x0000000000001a24                hidHandoverLoop
- .text          0x0000000000001a48       0x14 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+ .text          0x0000000000001a48       0x14 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
                 0x0000000000001a48                __gnu_thumb1_case_uqi
- .text.memcpy   0x0000000000001a5c       0x12 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .text.memcpy   0x0000000000001a5c       0x12 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
                 0x0000000000001a5c                memcpy
- .text.memset   0x0000000000001a6e       0x10 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .text.memset   0x0000000000001a6e       0x10 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
                 0x0000000000001a6e                memset
- .text          0x0000000000001a7e        0xe /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen.o)
+ .text          0x0000000000001a7e        0xe /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen.o)
                 0x0000000000001a7e                strlen
  *(.glue_7t)
  .glue_7t       0x0000000000001a8c        0x0 linker stubs
@@ -475,59 +475,59 @@ END GROUP
  *fill*         0x0000000000001b9b        0x1 
  .rodata.info   0x0000000000001b9c       0x30 build/golem/fat.o
  .rodata.infoUf2File
-                0x0000000000001bcc       0x55 build/golem/fat.o
+                0x0000000000001bcc       0x68 build/golem/fat.o
                 0x0000000000001bcc                infoUf2File
- .rodata        0x0000000000001c21        0xc build/golem/msc.o
+ .rodata        0x0000000000001c34        0xc build/golem/msc.o
  .rodata.process_msc.str1.1
-                0x0000000000001c2d        0x6 build/golem/msc.o
+                0x0000000000001c40        0x6 build/golem/msc.o
  .rodata.fullVersion
-                0x0000000000001c2d       0x2a build/golem/sam_ba_monitor.o
+                0x0000000000001c40       0x2a build/golem/sam_ba_monitor.o
  .rodata.sam_ba_monitor_run.str1.1
-                0x0000000000001c57       0x10 build/golem/sam_ba_monitor.o
+                0x0000000000001c6a       0x10 build/golem/sam_ba_monitor.o
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000000001c68                . = ALIGN (0x4)
- *fill*         0x0000000000001c67        0x1 
+                0x0000000000001c7c                . = ALIGN (0x4)
+ *fill*         0x0000000000001c7a        0x2 
  *(.init)
-                0x0000000000001c68                . = ALIGN (0x4)
-                0x0000000000001c68                __preinit_array_start = .
+                0x0000000000001c7c                . = ALIGN (0x4)
+                0x0000000000001c7c                __preinit_array_start = .
  *(.preinit_array)
-                0x0000000000001c68                __preinit_array_end = .
-                0x0000000000001c68                . = ALIGN (0x4)
-                0x0000000000001c68                __init_array_start = .
+                0x0000000000001c7c                __preinit_array_end = .
+                0x0000000000001c7c                . = ALIGN (0x4)
+                0x0000000000001c7c                __init_array_start = .
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
-                0x0000000000001c68                __init_array_end = .
-                0x0000000000001c68                . = ALIGN (0x4)
+                0x0000000000001c7c                __init_array_end = .
+                0x0000000000001c7c                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *crtend.o(.ctors)
-                0x0000000000001c68                . = ALIGN (0x4)
-                0x0000000000001c68                _efixed = .
+                0x0000000000001c7c                . = ALIGN (0x4)
+                0x0000000000001c7c                _efixed = .
                 [!provide]                        PROVIDE (__exidx_start = .)
 
-.vfp11_veneer   0x0000000000001c68        0x0
- .vfp11_veneer  0x0000000000001c68        0x0 linker stubs
+.vfp11_veneer   0x0000000000001c7c        0x0
+ .vfp11_veneer  0x0000000000001c7c        0x0 linker stubs
 
-.v4_bx          0x0000000000001c68        0x0
- .v4_bx         0x0000000000001c68        0x0 linker stubs
+.v4_bx          0x0000000000001c7c        0x0
+ .v4_bx         0x0000000000001c7c        0x0 linker stubs
 
-.iplt           0x0000000000001c68        0x0
- .iplt          0x0000000000001c68        0x0 build/golem/flash_samd21.o
+.iplt           0x0000000000001c7c        0x0
+ .iplt          0x0000000000001c7c        0x0 build/golem/flash_samd21.o
 
-.igot.plt       0x0000000000001c68        0x0
- .igot.plt      0x0000000000001c68        0x0 build/golem/flash_samd21.o
+.igot.plt       0x0000000000001c7c        0x0
+ .igot.plt      0x0000000000001c7c        0x0 build/golem/flash_samd21.o
 
-.rel.dyn        0x0000000000001c68        0x0
- .rel.iplt      0x0000000000001c68        0x0 build/golem/flash_samd21.o
+.rel.dyn        0x0000000000001c7c        0x0
+ .rel.iplt      0x0000000000001c7c        0x0 build/golem/flash_samd21.o
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
                 [!provide]                        PROVIDE (__exidx_end = .)
-                0x0000000000001c68                . = ALIGN (0x4)
-                0x0000000000001c68                _etext = .
+                0x0000000000001c7c                . = ALIGN (0x4)
+                0x0000000000001c7c                _etext = .
 
-.relocate       0x0000000020000000      0x1cc load address 0x0000000000001c68
+.relocate       0x0000000020000000      0x1cc load address 0x0000000000001c7c
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _srelocate = .
  *(.ramfunc .ramfunc.*)
@@ -560,7 +560,7 @@ END GROUP
                 0x00000000200001cc                . = ALIGN (0x4)
                 0x00000000200001cc                _erelocate = .
 
-.bss            0x00000000200001cc      0xc08 load address 0x0000000000001e34
+.bss            0x00000000200001cc      0xc08 load address 0x0000000000001e48
                 0x00000000200001cc                . = ALIGN (0x4)
                 0x00000000200001cc                _sbss = .
                 0x00000000200001cc                _szero = .
@@ -624,7 +624,7 @@ END GROUP
                 0x0000000020000dd4                _ebss = .
                 0x0000000020000dd4                _ezero = .
 
-.stack          0x0000000020000dd4     0x2004 load address 0x0000000000002a3c
+.stack          0x0000000020000dd4     0x2004 load address 0x0000000000002a50
                 0x0000000020000dd8                . = ALIGN (0x8)
  *fill*         0x0000000020000dd4        0x4 
                 0x0000000020000dd8                _sstack = .
@@ -640,7 +640,7 @@ END GROUP
  *(.binfo)
  .binfo         0x0000000000001ff0       0x10 build/golem/msc.o
                 0x0000000000001ff0                binfo
-OUTPUT(build/golem/bootloader-golem-v3.4.0-53-gfbd9bd1.elf elf32-littlearm)
+OUTPUT(build/golem/bootloader-golem-v1.23.1-adafruit.1-211-g0ad0fab-dirty.elf elf32-littlearm)
 
 .debug_info     0x0000000000000000    0x17e7e
  .debug_info    0x0000000000000000      0xfa6 build/golem/flash_samd21.o
@@ -718,42 +718,42 @@ OUTPUT(build/golem/bootloader-golem-v3.4.0-53-gfbd9bd1.elf elf32-littlearm)
  .debug_ranges  0x0000000000000498       0x60 build/golem/sam_ba_monitor.o
  .debug_ranges  0x00000000000004f8       0x88 build/golem/hid.o
 
-.debug_line     0x0000000000000000     0x2061
- .debug_line    0x0000000000000000      0x24a build/golem/flash_samd21.o
- .debug_line    0x000000000000024a      0x253 build/golem/init_samd21.o
- .debug_line    0x000000000000049d      0x1aa build/golem/startup_samd21.o
- .debug_line    0x0000000000000647      0x3e0 build/golem/usart_sam_ba.o
- .debug_line    0x0000000000000a27      0x2d2 build/golem/utils.o
- .debug_line    0x0000000000000cf9      0x4c4 build/golem/cdc_enumerate.o
- .debug_line    0x00000000000011bd      0x2b4 build/golem/fat.o
- .debug_line    0x0000000000001471      0x255 build/golem/main.o
- .debug_line    0x00000000000016c6      0x483 build/golem/msc.o
- .debug_line    0x0000000000001b49      0x2b3 build/golem/sam_ba_monitor.o
- .debug_line    0x0000000000001dfc      0x265 build/golem/hid.o
+.debug_line     0x0000000000000000     0x25d9
+ .debug_line    0x0000000000000000      0x2c2 build/golem/flash_samd21.o
+ .debug_line    0x00000000000002c2      0x2cb build/golem/init_samd21.o
+ .debug_line    0x000000000000058d      0x1fa build/golem/startup_samd21.o
+ .debug_line    0x0000000000000787      0x458 build/golem/usart_sam_ba.o
+ .debug_line    0x0000000000000bdf      0x34a build/golem/utils.o
+ .debug_line    0x0000000000000f29      0x564 build/golem/cdc_enumerate.o
+ .debug_line    0x000000000000148d      0x354 build/golem/fat.o
+ .debug_line    0x00000000000017e1      0x2cd build/golem/main.o
+ .debug_line    0x0000000000001aae      0x4fb build/golem/msc.o
+ .debug_line    0x0000000000001fa9      0x32b build/golem/sam_ba_monitor.o
+ .debug_line    0x00000000000022d4      0x305 build/golem/hid.o
 
-.debug_str      0x0000000000000000     0x3dea
- .debug_str     0x0000000000000000      0x727 build/golem/flash_samd21.o
-                                        0x80a (size before relaxing)
- .debug_str     0x0000000000000727      0x6f4 build/golem/init_samd21.o
-                                        0xe9a (size before relaxing)
- .debug_str     0x0000000000000e1b      0xedd build/golem/startup_samd21.o
-                                       0x135d (size before relaxing)
- .debug_str     0x0000000000001cf8      0xc48 build/golem/usart_sam_ba.o
-                                       0x13d5 (size before relaxing)
- .debug_str     0x0000000000002940       0xc3 build/golem/utils.o
-                                        0x875 (size before relaxing)
- .debug_str     0x0000000000002a03      0x43e build/golem/cdc_enumerate.o
-                                       0x1642 (size before relaxing)
- .debug_str     0x0000000000002e41      0x29f build/golem/fat.o
-                                        0x905 (size before relaxing)
- .debug_str     0x00000000000030e0       0x86 build/golem/main.o
-                                        0xb04 (size before relaxing)
- .debug_str     0x0000000000003166      0x9dc build/golem/msc.o
-                                       0x18c9 (size before relaxing)
- .debug_str     0x0000000000003b42       0xa9 build/golem/sam_ba_monitor.o
-                                        0x7ae (size before relaxing)
- .debug_str     0x0000000000003beb      0x1ff build/golem/hid.o
-                                        0x8f0 (size before relaxing)
+.debug_str      0x0000000000000000     0x3df2
+ .debug_str     0x0000000000000000      0x72f build/golem/flash_samd21.o
+                                        0x812 (size before relaxing)
+ .debug_str     0x000000000000072f      0x6f4 build/golem/init_samd21.o
+                                        0xea2 (size before relaxing)
+ .debug_str     0x0000000000000e23      0xedd build/golem/startup_samd21.o
+                                       0x1365 (size before relaxing)
+ .debug_str     0x0000000000001d00      0xc48 build/golem/usart_sam_ba.o
+                                       0x13dd (size before relaxing)
+ .debug_str     0x0000000000002948       0xc3 build/golem/utils.o
+                                        0x87d (size before relaxing)
+ .debug_str     0x0000000000002a0b      0x43e build/golem/cdc_enumerate.o
+                                       0x164a (size before relaxing)
+ .debug_str     0x0000000000002e49      0x29f build/golem/fat.o
+                                        0x90d (size before relaxing)
+ .debug_str     0x00000000000030e8       0x86 build/golem/main.o
+                                        0xb0c (size before relaxing)
+ .debug_str     0x000000000000316e      0x9dc build/golem/msc.o
+                                       0x18d1 (size before relaxing)
+ .debug_str     0x0000000000003b4a       0xa9 build/golem/sam_ba_monitor.o
+                                        0x7b6 (size before relaxing)
+ .debug_str     0x0000000000003bf3      0x1ff build/golem/hid.o
+                                        0x8f8 (size before relaxing)
 
 .comment        0x0000000000000000       0x7f
  .comment       0x0000000000000000       0x7f build/golem/flash_samd21.o
@@ -794,13 +794,13 @@ OUTPUT(build/golem/bootloader-golem-v3.4.0-53-gfbd9bd1.elf elf32-littlearm)
  .ARM.attributes
                 0x00000000000001f4       0x32 build/golem/hid.o
  .ARM.attributes
-                0x0000000000000226       0x1e /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+                0x0000000000000226       0x1e /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
  .ARM.attributes
-                0x0000000000000244       0x2c /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+                0x0000000000000244       0x2c /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x0000000000000270       0x2c /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+                0x0000000000000270       0x2c /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
  .ARM.attributes
-                0x000000000000029c       0x1c /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen.o)
+                0x000000000000029c       0x1c /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen.o)
 
 .debug_frame    0x0000000000000000      0x934
  .debug_frame   0x0000000000000000       0xb4 build/golem/flash_samd21.o
@@ -814,8 +814,8 @@ OUTPUT(build/golem/bootloader-golem-v3.4.0-53-gfbd9bd1.elf elf32-littlearm)
  .debug_frame   0x0000000000000624      0x170 build/golem/msc.o
  .debug_frame   0x0000000000000794       0x98 build/golem/sam_ba_monitor.o
  .debug_frame   0x000000000000082c       0xc0 build/golem/hid.o
- .debug_frame   0x00000000000008ec       0x28 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x0000000000000914       0x20 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000000000008ec       0x28 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000000914       0x20 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
 
 Cross Reference Table
 
@@ -872,7 +872,7 @@ USB_WriteCore                                     build/golem/cdc_enumerate.o
                                                   build/golem/hid.o
                                                   build/golem/msc.o
 WDT_Handler                                       build/golem/startup_samd21.o
-__gnu_thumb1_case_uqi                             /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+__gnu_thumb1_case_uqi                             /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
                                                   build/golem/hid.o
 _erelocate                                        build/golem/startup_samd21.o
 _estack                                           build/golem/startup_samd21.o
@@ -954,13 +954,13 @@ led_tick_step                                     build/golem/utils.o
 length                                            build/golem/sam_ba_monitor.o
 main                                              build/golem/main.o
                                                   build/golem/startup_samd21.o
-memcpy                                            /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+memcpy                                            /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
                                                   build/golem/hid.o
                                                   build/golem/sam_ba_monitor.o
                                                   build/golem/msc.o
                                                   build/golem/fat.o
                                                   build/golem/cdc_enumerate.o
-memset                                            /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+memset                                            /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
                                                   build/golem/hid.o
                                                   build/golem/msc.o
                                                   build/golem/fat.o
@@ -1004,7 +1004,7 @@ size_of_data                                      build/golem/usart_sam_ba.o
 sp                                                build/golem/sam_ba_monitor.o
 stall_ep                                          build/golem/cdc_enumerate.o
                                                   build/golem/msc.o
-strlen                                            /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen.o)
+strlen                                            /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen.o)
                                                   build/golem/hid.o
                                                   build/golem/fat.o
                                                   build/golem/cdc_enumerate.o
